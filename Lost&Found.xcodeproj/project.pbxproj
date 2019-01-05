@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2E0625D212D317ACD37A98 /* Pods_Lost_Found.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE8F2B1DEBCB29A31F839B3 /* Pods_Lost_Found.framework */; };
+		BA6E2B272092B1840042F294 /* ReportHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E2B262092B1840042F294 /* ReportHistoryTableViewController.swift */; };
+		BA76680A208BF0320019F8E8 /* FoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA766809208BF0320019F8E8 /* FoundViewController.swift */; };
+		BA76680C208BF2360019F8E8 /* LostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76680B208BF2360019F8E8 /* LostViewController.swift */; };
+		BA76680E208C18270019F8E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76680D208C18270019F8E8 /* CoreLocation.framework */; };
+		BA766810208C21E30019F8E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76680F208C21E30019F8E8 /* MapKit.framework */; };
+		BA922A39209497AE00471EFF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA922A38209497AE00471EFF /* MessageUI.framework */; };
+		BAB5CA5020936DC100F792DA /* ReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5CA4F20936DC100F792DA /* ReportTableViewCell.swift */; };
+		BAB5CA522093742700F792DA /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5CA512093742700F792DA /* Property.swift */; };
+		BAB5CA542093A4B600F792DA /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5CA532093A4B600F792DA /* AdminHomeViewController.swift */; };
+		BAB5CA562093B3B600F792DA /* AdminReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5CA552093B3B600F792DA /* AdminReportTableViewController.swift */; };
+		BAB5CA582093B44B00F792DA /* AdminReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5CA572093B44B00F792DA /* AdminReportTableViewCell.swift */; };
 		BAC87064208028F9005316EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC87063208028F9005316EE /* AppDelegate.swift */; };
 		BAC87066208028F9005316EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC87065208028F9005316EE /* ViewController.swift */; };
 		BAC87069208028F9005316EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC87067208028F9005316EE /* Main.storyboard */; };
 		BAC8706B208028F9005316EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC8706A208028F9005316EE /* Assets.xcassets */; };
 		BAC8706E208028F9005316EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC8706C208028F9005316EE /* LaunchScreen.storyboard */; };
+		BAC8707620814696005316EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAC8707520814696005316EE /* GoogleService-Info.plist */; };
+		BAD505F1208FE18400E1ED06 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD505F0208FE18400E1ED06 /* MapViewController.swift */; };
+		BAE892E420942EBB0095D164 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE892E320942EBB0095D164 /* ImageHandler.swift */; };
+		BAF031A7208154FE00665699 /* mine.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF031A6208154FE00665699 /* mine.m */; };
+		BAF031AA20816BF600665699 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF031A920816BF600665699 /* HomeViewController.swift */; };
+		BAFCFDB62091003700F5A471 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCFDB52091003700F5A471 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AE8F2B1DEBCB29A31F839B3 /* Pods_Lost_Found.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lost_Found.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6E2B262092B1840042F294 /* ReportHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportHistoryTableViewController.swift; sourceTree = "<group>"; };
+		BA766809208BF0320019F8E8 /* FoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundViewController.swift; sourceTree = "<group>"; };
+		BA76680B208BF2360019F8E8 /* LostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostViewController.swift; sourceTree = "<group>"; };
+		BA76680D208C18270019F8E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA76680F208C21E30019F8E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA922A38209497AE00471EFF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BAB5CA4F20936DC100F792DA /* ReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewCell.swift; sourceTree = "<group>"; };
+		BAB5CA512093742700F792DA /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		BAB5CA532093A4B600F792DA /* AdminHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		BAB5CA552093B3B600F792DA /* AdminReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminReportTableViewController.swift; sourceTree = "<group>"; };
+		BAB5CA572093B44B00F792DA /* AdminReportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminReportTableViewCell.swift; sourceTree = "<group>"; };
 		BAC87060208028F9005316EE /* Lost&Found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lost&Found.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC87063208028F9005316EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC87065208028F9005316EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +52,16 @@
 		BAC8706A208028F9005316EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC8706D208028F9005316EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC8706F208028F9005316EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC8707520814696005316EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAD505F0208FE18400E1ED06 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BAE892E320942EBB0095D164 /* ImageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
+		BAF031A5208154FD00665699 /* Lost&Found-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lost&Found-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAF031A6208154FE00665699 /* mine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mine.m; path = ../mine.m; sourceTree = "<group>"; };
+		BAF031A82081573900665699 /* Lost&Found.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lost&Found.entitlements"; sourceTree = "<group>"; };
+		BAF031A920816BF600665699 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BAFCFDB52091003700F5A471 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DBB3028950904F6B6A5C89FC /* Pods-Lost&Found.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost&Found.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found.release.xcconfig"; sourceTree = "<group>"; };
+		FAA9FB5482B06B7BDA51AF7A /* Pods-Lost&Found.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lost&Found.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA922A39209497AE00471EFF /* MessageUI.framework in Frameworks */,
+				BA76680E208C18270019F8E8 /* CoreLocation.framework in Frameworks */,
+				BA766810208C21E30019F8E8 /* MapKit.framework in Frameworks */,
+				1F2E0625D212D317ACD37A98 /* Pods_Lost_Found.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A061061C8D8254A11F4007C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA922A38209497AE00471EFF /* MessageUI.framework */,
+				BA76680F208C21E30019F8E8 /* MapKit.framework */,
+				BA76680D208C18270019F8E8 /* CoreLocation.framework */,
+				5AE8F2B1DEBCB29A31F839B3 /* Pods_Lost_Found.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAC87057208028F9005316EE = {
 			isa = PBXGroup;
 			children = (
 				BAC87062208028F9005316EE /* Lost&Found */,
 				BAC87061208028F9005316EE /* Products */,
+				E6E0CA73703BBDDE07F233FD /* Pods */,
+				A061061C8D8254A11F4007C9 /* Frameworks */,
+				BAF031A5208154FD00665699 /* Lost&Found-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +112,38 @@
 		BAC87062208028F9005316EE /* Lost&Found */ = {
 			isa = PBXGroup;
 			children = (
+				BAF031A82081573900665699 /* Lost&Found.entitlements */,
+				BAF031A920816BF600665699 /* HomeViewController.swift */,
 				BAC87063208028F9005316EE /* AppDelegate.swift */,
+				BAF031A6208154FE00665699 /* mine.m */,
 				BAC87065208028F9005316EE /* ViewController.swift */,
 				BAC87067208028F9005316EE /* Main.storyboard */,
 				BAC8706A208028F9005316EE /* Assets.xcassets */,
 				BAC8706C208028F9005316EE /* LaunchScreen.storyboard */,
+				BAC8707520814696005316EE /* GoogleService-Info.plist */,
 				BAC8706F208028F9005316EE /* Info.plist */,
+				BA766809208BF0320019F8E8 /* FoundViewController.swift */,
+				BA76680B208BF2360019F8E8 /* LostViewController.swift */,
+				BAD505F0208FE18400E1ED06 /* MapViewController.swift */,
+				BAFCFDB52091003700F5A471 /* HistoryViewController.swift */,
+				BA6E2B262092B1840042F294 /* ReportHistoryTableViewController.swift */,
+				BAB5CA4F20936DC100F792DA /* ReportTableViewCell.swift */,
+				BAB5CA512093742700F792DA /* Property.swift */,
+				BAB5CA532093A4B600F792DA /* AdminHomeViewController.swift */,
+				BAB5CA552093B3B600F792DA /* AdminReportTableViewController.swift */,
+				BAB5CA572093B44B00F792DA /* AdminReportTableViewCell.swift */,
+				BAE892E320942EBB0095D164 /* ImageHandler.swift */,
 			);
 			path = "Lost&Found";
+			sourceTree = "<group>";
+		};
+		E6E0CA73703BBDDE07F233FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9FB5482B06B7BDA51AF7A /* Pods-Lost&Found.debug.xcconfig */,
+				DBB3028950904F6B6A5C89FC /* Pods-Lost&Found.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAC87072208028F9005316EE /* Build configuration list for PBXNativeTarget "Lost&Found" */;
 			buildPhases = (
+				58E37E16ECFC467FC2936C32 /* [CP] Check Pods Manifest.lock */,
 				BAC8705C208028F9005316EE /* Sources */,
 				BAC8705D208028F9005316EE /* Frameworks */,
 				BAC8705E208028F9005316EE /* Resources */,
+				3B371D075DDD2FC56C1D647E /* [CP] Embed Pods Frameworks */,
+				A2427F10EC5D6CFE8D57E7F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +181,17 @@
 				TargetAttributes = {
 					BAC8705F208028F9005316EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69V53MZ7RC;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC8706E208028F9005316EE /* LaunchScreen.storyboard in Resources */,
+				BAC8707620814696005316EE /* GoogleService-Info.plist in Resources */,
 				BAC8706B208028F9005316EE /* Assets.xcassets in Resources */,
 				BAC87069208028F9005316EE /* Main.storyboard in Resources */,
 			);
@@ -131,13 +227,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B371D075DDD2FC56C1D647E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E37E16ECFC467FC2936C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lost&Found-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2427F10EC5D6CFE8D57E7F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lost&Found/Pods-Lost&Found-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAC8705C208028F9005316EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA76680A208BF0320019F8E8 /* FoundViewController.swift in Sources */,
+				BAB5CA562093B3B600F792DA /* AdminReportTableViewController.swift in Sources */,
 				BAC87066208028F9005316EE /* ViewController.swift in Sources */,
+				BAB5CA522093742700F792DA /* Property.swift in Sources */,
+				BA76680C208BF2360019F8E8 /* LostViewController.swift in Sources */,
+				BAB5CA582093B44B00F792DA /* AdminReportTableViewCell.swift in Sources */,
+				BAB5CA5020936DC100F792DA /* ReportTableViewCell.swift in Sources */,
+				BAF031A7208154FE00665699 /* mine.m in Sources */,
+				BAF031AA20816BF600665699 /* HomeViewController.swift in Sources */,
 				BAC87064208028F9005316EE /* AppDelegate.swift in Sources */,
+				BAE892E420942EBB0095D164 /* ImageHandler.swift in Sources */,
+				BA6E2B272092B1840042F294 /* ReportHistoryTableViewController.swift in Sources */,
+				BAB5CA542093A4B600F792DA /* AdminHomeViewController.swift in Sources */,
+				BAD505F1208FE18400E1ED06 /* MapViewController.swift in Sources */,
+				BAFCFDB62091003700F5A471 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,24 +434,37 @@
 		};
 		BAC87073208028F9005316EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA9FB5482B06B7BDA51AF7A /* Pods-Lost&Found.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Lost&Found/Lost&Found.entitlements";
+				DEVELOPMENT_TEAM = 69V53MZ7RC;
 				INFOPLIST_FILE = "Lost&Found/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "education.Lost-Found";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lost&Found-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BAC87074208028F9005316EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB3028950904F6B6A5C89FC /* Pods-Lost&Found.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Lost&Found/Lost&Found.entitlements";
+				DEVELOPMENT_TEAM = 69V53MZ7RC;
 				INFOPLIST_FILE = "Lost&Found/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "education.Lost-Found";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lost&Found-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +488,7 @@
 				BAC87074208028F9005316EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
